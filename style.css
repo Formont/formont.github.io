@@ -35,4 +35,7 @@
   overflow-x: scroll;
   white-space: nowrap;
   display: flex;
+  height: 100px;
+  width: 390px
 }
+
