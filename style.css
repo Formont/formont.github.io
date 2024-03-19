@@ -1,6 +1,6 @@
 .rounded-button {
-    width: 150px;
-    height: 125px;
+    width: 85px;
+    height: 85px;
     background-color: #5768ff;
     color: #ffffff;
     border: none;
@@ -30,3 +30,9 @@
 	text-align: center;
 }
 
+.scroll {
+  background-color: #00fff2;
+  overflow-x: scroll;
+  white-space: nowrap;
+  display: flex;
+}
