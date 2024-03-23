@@ -1,4 +1,5 @@
-  .container {
+
+.container {
 	max-width: 366px;
 }
 
@@ -81,12 +82,16 @@
 
 #header_news {
   position: relative;
-  top: -137px;
-  left: -316px;
   clear: both;
+  display: inline-block;
   white-space: nowrap;
 }
 
+#header_container{
+  position: relative;
+  top: -137px;
+  left: -316px;
+}
 #shops{
   width: 390px;
   margin: -144px -385px;
