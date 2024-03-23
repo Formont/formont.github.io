@@ -90,6 +90,7 @@
 }
 
 #header_container{
+  width: 366px;
   position: relative;
   top: -135px;
   left: -367px;
