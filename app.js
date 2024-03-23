@@ -1,6 +1,6 @@
 let tg = window.Telegram.WebApp;
 
-alert(tg.ThemeParams.bg_color)
+alert(tg.ThemeParams.bg_color);
 tg.expand();
 
 tg.MainButton.textColor = '#FFFFFF';
