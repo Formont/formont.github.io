@@ -80,12 +80,10 @@
 }
 
 #header_news {
-  width: 122px;
   position: relative;
   text-align: left;
   font-size: 24px;
   clear: both;
-  display: inline-block;
   white-space: nowrap;
 }
 
@@ -99,8 +97,8 @@
   width: 390px;
   margin: -144px -385px;
   display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 170px 200px 200px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 170px 200px 200px;
 }
 
 .shop_text{
