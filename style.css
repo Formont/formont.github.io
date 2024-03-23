@@ -51,21 +51,34 @@
   margin: -31px 0;
 }
 
+#secondline{
+  width: 366px;
+  height: 122px;
+  position: relative;
+  top: 22px;
+  flex-flow: column;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 22px;
+}
+
 #news{
   width: 122px;
   height: 122px;
-  margin: 25px 0;
 }
 #news img{
+  position: relative;
   width: 122px;
   height: 122px;
 }
 
 #secondbanner{
+  position: relative;
   width: 222px;
   height: 122px;
-  margin: -148px 145px;
 }
+
 #secondbanner img{
   width: 222px;
   height: 122px;
