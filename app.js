@@ -1,6 +1,5 @@
 let tg = window.Telegram.WebApp;
 
-alert(tg.colorScheme);
 if (tg.colorScheme == "light"){
     document.getElementById("header_news").style.color = "black";
 }
