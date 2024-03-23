@@ -79,15 +79,6 @@
   float: right;
 }
 
-#header_news {
-  position: relative;
-  text-align: left;
-  font-size: 24px;
-  clear: both;
-  display: block;
-  white-space: nowrap;
-}
-
 #header_container{
   width: 366px;
   top: -135px;
@@ -96,8 +87,7 @@
   text-align: left;
   font-size: 24px;
   clear: both;
-  display: inline-block;
-  white-space: nowrap;
+  display: block;
 }
 
 #shops{
