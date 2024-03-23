@@ -14,7 +14,6 @@
 
 .scroll {
   margin: 5px 0;
-  background-color: #565ab9;
   overflow-x: scroll;
   white-space: nowrap;
   display: flex;
