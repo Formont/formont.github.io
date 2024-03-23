@@ -67,6 +67,7 @@
   height: 122px;
   margin: -60px -222px;
 }
+
 #secondbanner img{
   width: 222px;
   height: 122px;
@@ -80,6 +81,7 @@
 }
 
 #header_news {
+  color: blue;
   position: relative;
   text-align: left;
   font-size: 24px;
@@ -93,6 +95,7 @@
   top: -135px;
   left: -367px;
 }
+
 #shops{
   width: 390px;
   margin: -144px -385px;
