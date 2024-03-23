@@ -1,5 +1,5 @@
   .container {
-	max-width: 390px;
+	max-width: 366px;
 }
 
 .inner {
@@ -19,7 +19,7 @@
   white-space: nowrap;
   display: flex;
   height: 120px;
-  width: 390px
+  width: 366px
 }
 
 .button {
@@ -48,7 +48,7 @@
 }
 
 #mainbanner img{
-  width: 390px;
+  width: 366px;
   height: 155px;
   margin: -31px 0;
 }
