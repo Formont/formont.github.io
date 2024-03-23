@@ -89,8 +89,7 @@
 }
 
 #header_container{
-  color: blue;
-  position: relative;
+  width: 366px;
   top: -135px;
   left: -367px;
   position: relative;
