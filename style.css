@@ -90,7 +90,7 @@
 }
 
 #shops{
-  width: 502px;
+  width: 390px;
   margin: -144px -385px;
   display: grid;
 	grid-template-columns: 1fr 1fr;
