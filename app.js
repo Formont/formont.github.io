@@ -1,10 +1,10 @@
 let tg = window.Telegram.WebApp;
 
 if (tg.colorScheme == "light"){
-    document.getElementById("header_news").style.color = "black";
+    document.getElementById("header_container").style.color = "black";
 }
 else if (tg.colorScheme == "dark"){
-    document.getElementById("header_news").style.color = "white";
+    document.getElementById("header_container").style.color = "white";
 }
 tg.expand();
 
