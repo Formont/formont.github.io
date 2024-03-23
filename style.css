@@ -3,7 +3,6 @@
 }
 
 .inner {
-	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 170px 200px 200px;
 }
@@ -55,7 +54,7 @@
 #news{
   width: 122px;
   height: 122px;
-  margin: -60px 0;
+  margin: 25px 0;
 }
 #news img{
   width: 122px;
@@ -65,29 +64,46 @@
 #secondbanner{
   width: 222px;
   height: 122px;
-  margin: -60px -222px;
+  margin: -148px 145px;
 }
 #secondbanner img{
   width: 222px;
   height: 122px;
 }
 
+.menutext{
+  padding: 3px;
+  margin: 5px;
+  font-size: 15px;  
+  float: right;
+}
+
+#header_news {
+  position: relative;
+  text-align: left;
+  font-size: 24px;
+  clear: both;
+  display: inline-block;
+  white-space: nowrap;
+}
+
 #header_container{
-  width: 366px;
+  position: relative;
   top: -135px;
   left: -367px;
-  position: relative;
+  text-align: left;
   font-size: 24px;
-  display: block;
-  text-align: center;
+  clear: both;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 #shops{
   width: 390px;
   margin: -144px -385px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 170px 200px 200px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 170px 200px 200px;
 }
 
 .shop_text{
