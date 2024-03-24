@@ -4,7 +4,7 @@ const elements = document.getElementsByClassName("scroller_text");
 if (tg.colorScheme == "light"){
     document.getElementById("header_container").style.color = "black";
     for (let i = 0; i < elements.length; i++) {
-    elements[i].style.color = "balck"; 
+    elements[i].style.color = "black"; 
     }
 }
 else if (tg.colorScheme == "dark"){
