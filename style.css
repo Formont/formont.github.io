@@ -1,12 +1,6 @@
 a {
   text-decoration: none;
-  color: #FFFFFF;
 } 
-
-a:link, a:visited, a:hover, a:active {
-    outline: none; 
-    color: #FFFFFF;
-}
 
 .container {
 	max-width: 366px;
@@ -32,9 +26,9 @@ a:link, a:visited, a:hover, a:active {
 
 .scroller_text{
   position: relative;
-  color: blue;
-  top: 15px;
-  left: 6px;
+  color: black;
+  top: -18px;
+  left: 12px;
 }
 
 .button {
@@ -42,11 +36,9 @@ a:link, a:visited, a:hover, a:active {
   height: 85px;
   min-width: 85px;
   min-height: 85px;
-  background-color: #4de2ef;
   margin: 17px 6px;
   border-radius: 17px;
-  color: white;
-  text-decoration: none;
+  color: white;;
   font-family: Arial, sans-serif;
 }
 
@@ -55,23 +47,26 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #scroller_police{
-  background-color: #3D00B8;
+  border-color: #3D00B8;
 }
 
 #scroller_baraholka{
-  background-color: #9DE8FF;
+  border-color: #9DE8FF;
 }
 
 #scroller_houses{
-  background-color: #82002D;
+  border-color: #82002D;
 }
 
 .button img {
   position: relative;
-  width: 50px;
-	height: 50px;
-  top: 17px;
-  left: 17px;
+  width: 65px;
+	height: 65px;
+  left: -1px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 17px;
+  border-width: 14px;
 }
 
 #mainbanner img{
