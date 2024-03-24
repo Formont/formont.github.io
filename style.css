@@ -16,8 +16,15 @@
   overflow-x: scroll;
   white-space: nowrap;
   display: flex;
-  height: 120px;
+  height: 156px;
   width: 366px
+}
+
+.scroller_text{
+  position: relative;
+  color: black;
+  top: 15px;
+  left: 6px;
 }
 
 .button {
@@ -25,30 +32,42 @@
   height: 85px;
   min-width: 85px;
   min-height: 85px;
-  margin: 17px 6px;
-  display: grid;
-  border-radius: 17px;
   background-color: #4de2ef;
+  margin: 17px 6px;
+  border-radius: 17px;
   color: white;
   text-decoration: none;
   font-family: Arial, sans-serif;
-  justify-content: center;
 }
 
 .button:hover{
-  background-color: red;
+  transform: scale(1.05);
 }
+
+#scroller_police{
+  background-color: #3D00B8;
+}
+
+#scroller_baraholka{
+  background-color: #9DE8FF;
+}
+
+#scroller_houses{
+  background-color: #82002D;
+}
+
 .button img {
   position: relative;
   width: 50px;
 	height: 50px;
   top: 17px;
+  left: 17px;
 }
 
 #mainbanner img{
   width: 366px;
   height: 155px;
-  margin: -31px 0;
+  margin-bottom: -13px;
 }
 
 #secondline{
@@ -91,32 +110,24 @@
   float: right;
 }
 
-#header_news {
-  position: relative;
-  text-align: left;
-  font-size: 24px;
-  clear: both;
-  display: inline-block;
-  white-space: nowrap;
-}
 
 #header_container{
   position: relative;
-  top: -135px;
-  left: -367px;
+  top: 12px;
   text-align: left;
-  font-size: 24px;
+  font-size: 28px;
   clear: both;
-  display: inline-block;
+  display: block;
   white-space: nowrap;
 }
 
 #shops{
-  width: 390px;
-  margin: -144px -385px;
+  width: 366px;
   display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 170px 200px 200px;
+	grid-template-columns: 2fr 1fr;
+	grid-auto-rows: 121px;
+  top: 6px;
+  position:  relative;
 }
 
 .shop_text{
@@ -128,13 +139,15 @@
 .button_shop{
   width: 130px;
   height: 100px;
-  margin: 17px 6px;
-  display: grid;
   border-radius: 17px;
   background-color: #4de2ef;
   color: white;
   text-decoration: none;
   font-family: Arial, sans-serif;
-  justify-content: center;
+  text-align: center;
+}
+
+.button_shop:hover{
+  transform: scale(1.05);
 }
 
