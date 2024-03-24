@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+} 
+
 .container {
 	max-width: 366px;
 }
@@ -22,7 +26,7 @@
 
 .scroller_text{
   position: relative;
-  color: black;
+  color: blue;
   top: 15px;
   left: 6px;
 }
