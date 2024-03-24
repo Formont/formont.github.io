@@ -4,6 +4,7 @@ a {
 
 a:link, a:visited, a:hover, a:active {
     outline: none; 
+    color: #000
 }
 
 .container {
