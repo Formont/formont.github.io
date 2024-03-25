@@ -85,6 +85,18 @@ margin-bottom: -13px;
 border-radius: 17px;
 }
 
+@media (hover:hover){
+#mainbanner:hover{
+  transform: scale(1.05);
+}
+}
+
+@media (hover: none){
+#mainbanner:active{
+  transform: scale(1.05);
+}
+}
+
 #secondline{
 width: 366px;
 height: 122px;
