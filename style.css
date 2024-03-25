@@ -74,8 +74,12 @@ a {
   width: 366px;
   height: 155px;
   margin-bottom: -13px;
+  border-radius: 17px;
 }
 
+#mainbanner:hover{
+  transform: scale(1.05);
+}
 #secondline{
   width: 366px;
   height: 122px;
@@ -93,9 +97,14 @@ a {
   height: 122px;
 }
 #news img{
+  border-radius: 17px;
   position: relative;
   width: 122px;
   height: 122px;
+}
+
+#news :hover{
+  transform: scale(1.05);
 }
 
 #secondbanner{
@@ -105,8 +114,13 @@ a {
 }
 
 #secondbanner img{
+  border-radius: 17px;
   width: 222px;
   height: 122px;
+}
+
+#secondbanner:hover{
+  transform: scale(1.05);
 }
 
 .menutext{
@@ -134,6 +148,7 @@ a {
 	grid-auto-rows: 121px;
   top: 6px;
   position:  relative;
+  left: 23px;
 }
 
 .shop_text{
