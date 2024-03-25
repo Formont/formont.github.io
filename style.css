@@ -49,6 +49,12 @@ a {
   }
 }
 
+@media (hover: none){
+.button:active{
+    transform: scale(1.05);
+  }
+}
+
 #scroller_police{
   border-color: #3D00B8;
 }
