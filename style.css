@@ -34,8 +34,7 @@ width: 366px
 .scroller_text{
 position: relative;
 color: black;
-top: -18px;
-left: 12px;
+left: 8px;
 }
 
 .button {
