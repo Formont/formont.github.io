@@ -4,8 +4,6 @@ a {
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -34,7 +32,8 @@ width: 366px
 .scroller_text{
 position: relative;
 color: black;
-left: 8px;
+top: -15px;
+text-align: center;
 }
 
 .button {
