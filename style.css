@@ -11,11 +11,6 @@ a {
 max-width: 366px;
 }
 
-.inner {
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 170px 200px 200px;
-}
-
 .item {
 text-align: center;
 }
@@ -25,7 +20,7 @@ margin: 5px 0;
 overflow-x: scroll;
 white-space: nowrap;
 display: flex;
-height: 173px;
+height: 156px;
 width: 366px
 }
 
@@ -34,6 +29,7 @@ position: relative;
 color: black;
 top: -15px;
 text-align: center;
+font-family: sans-serif;
 }
 
 .button {
@@ -73,10 +69,34 @@ border-color: #82002D;
 
 #scroller_job{
   border-color: #E8C864
-  }
+}
 
 #scroller_services{
     border-color: #EED6AB;
+}
+
+#scroller_photos{
+  border-color: #d8004c;
+}
+
+#scroller_chatting{
+    border-color: #82002D;
+  }
+
+#scroller_pets{
+    border-color: #ad3af0;
+}
+
+#scroller_travellers{
+  border-color: #BD6FE9;
+}
+
+#scroller_answer{
+  border-color: #9DE8FF;
+}
+
+#scroller_bureau{
+  border-color: #DB00E7;
 }
     
 .button img {
@@ -85,7 +105,7 @@ width: 85px;
 height: 85px;
 left: -1px;
 border-style: solid;
-border-color: blue;
+border-color: #BD6CEC;
 border-radius: 17px;
 border-width: 6px;
 }
@@ -185,7 +205,7 @@ text-align: left;
 font-size: 28px;
 clear: both;
 display: block;
-white-space: nowrap;
+font-family: sans-serif;
 }
 
 #shops{
@@ -195,7 +215,7 @@ grid-template-columns: 2fr 1fr;
 grid-auto-rows: 101px;
 top: 6px;
 position:  relative;
-left: 23px;
+left: 26px;
 }
 
 .shop_text{
@@ -205,7 +225,7 @@ top: 31.5px;
 }
 
 .button_shop{
-width: 130px;
+width: 141px;
 height: 80px;
 border-radius: 17px;
 background-color: rgb(124, 42, 214);
