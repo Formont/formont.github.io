@@ -49,13 +49,13 @@ font-family: Arial, sans-serif;
 
 @media (hover:hover){
 .button:hover{
-  transform: scale(1.05);
+  transform: scale(0.95);
 }
 }
 
 @media (hover: none){
 .button:active{
-  transform: scale(1.05);
+  transform: scale(0.95);
 }
 }
 
@@ -99,13 +99,13 @@ border-radius: 17px;
 
 @media (hover:hover){
 #mainbanner:hover{
-  transform: scale(1.05);
+  transform: scale(0.95);
 }
 }
 
 @media (hover: none){
 #mainbanner:active{
-  transform: scale(1.05);
+  transform: scale(0.95);
 }
 }
 
@@ -135,13 +135,13 @@ height: 122px;
 
 @media (hover: hover){
   #news :hover{
-    transform: scale(1.05);
+    transform: scale(0.95);
     }
 }
 
 @media (hover: none){
   #news :active{
-    transform: scale(1.05);
+    transform: scale(0.95);
     }
 }
 
@@ -159,13 +159,13 @@ height: 122px;
 
 @media (hover: hover){
   #secondbanner:hover{
-    transform: scale(1.05);
+    transform: scale(0.95);
     }
 }
 
 @media (hover: none){
   #secondbanner:active{
-    transform: scale(1.05);
+    transform: scale(0.95);
     }
 }
 
@@ -216,12 +216,12 @@ text-align: center;
 
 @media (hover: hover){
   .button_shop:hover{
-    transform: scale(1.05);
+    transform: scale(0.95);
     }
 }
 
 @media (hover: none){
   .button_shop:active{
-    transform: scale(1.05);
+    transform: scale(0.95);
     }
 }
