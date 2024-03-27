@@ -140,6 +140,7 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 gap: 2%;
+margin: 1%;
 }
 
 #news{
@@ -225,7 +226,7 @@ top: 28px;
 }
 
 .button_shop{
-height: 80%;
+height: 85px;
 width: 50%;
 border-radius: 17px;
 background-color: rgb(124, 42, 214);
