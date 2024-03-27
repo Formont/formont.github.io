@@ -209,7 +209,7 @@ font-family: sans-serif;
 }
 
 #shops{
-width: 84%;
+width: 100%;
 display: grid;
 grid-template-columns: 50% 50%;
 grid-auto-rows: 101px;
