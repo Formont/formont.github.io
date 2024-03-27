@@ -145,6 +145,7 @@ gap: 2%;
 #news{
 width: 33%;
 height: 100%;
+margin-left: 1%;
 }
 
 #news img{
@@ -168,7 +169,7 @@ height: 100%;
 
 #secondbanner{
 position: relative;
-width: 65%;
+width: 64%;
 height: 100%;
 }
 
