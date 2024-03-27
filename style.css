@@ -108,12 +108,14 @@ border-radius: 17px;
 border-width: 6px;
 }
 
+#mainbanner{
+  margin: 1%;
+}
 #mainbanner img{
 width: 100%;
 height: 100%;
 margin-bottom: -13px;
 border-radius: 17px;
-margin: 1%;
 }
 
 @media (hover:hover){
