@@ -21,7 +21,7 @@ overflow-x: scroll;
 white-space: nowrap;
 display: flex;
 height: 156px;
-width: 99%;
+width: 100%;
 }
 
 .scroller_text{
