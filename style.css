@@ -143,13 +143,13 @@ gap: 22px;
 
 #news{
 width: 33%;
-height: 33%;
+height: 100%;
 }
 
 #news img{
 border-radius: 17px;
 position: relative;
-width: 33%;
+width: 100%;
 height: 100%;
 }
 
