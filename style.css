@@ -224,8 +224,8 @@ justify-items: center;
 .shop_text{
 position: relative;
 color: white;
-top: 28px;
 font-size: 100%;
+margin: auto;
 }
 
 .button_shop{
