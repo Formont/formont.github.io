@@ -211,12 +211,11 @@ font-family: sans-serif;
 #shops{
 width: 84%;
 display: grid;
-grid-template-columns: 2fr 1fr;
+grid-template-columns: 50% 50%;
 grid-auto-rows: 101px;
 top: 6px;
 position:  relative;
-left: 26px;
-text-align: center;
+padding-left: 30%;
 }
 
 .shop_text{
