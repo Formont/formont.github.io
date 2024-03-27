@@ -25,7 +25,7 @@ width: 100vw;
 .scroller_text{
 position: relative;
 color: black;
-top: -15px;
+top: -5px;
 text-align: center;
 font-family: sans-serif;
 }
