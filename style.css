@@ -138,7 +138,7 @@ flex-flow: column;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
-gap: 22px;
+gap: 2px;
 }
 
 #news{
