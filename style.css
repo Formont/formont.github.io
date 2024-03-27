@@ -25,9 +25,10 @@ width: 100vw;
 .scroller_text{
 position: relative;
 color: black;
-top: -5px;
+top: -2px;
 text-align: center;
 font-family: sans-serif;
+left: 5%;
 }
 
 .button {
