@@ -1,12 +1,12 @@
 import { readFileSync, writeFileSync } from 'fs';
 
-const json1 = fs.readFileSync('data.json', 'utf8');
+const json1 = readFileSync('data.json', 'utf8');
 
 const object = JSON.parse(json1);
 object.views += 1;
 
 const json2 = JSON.stringify(object);
-fs.writeFileSync('data.json', json2);
+writeFileSync('data.json', json2);
  
 let tg = window.Telegram.WebApp;
 
