@@ -1,3 +1,15 @@
+import { readFileSync, writeFileSync } from 'fs';
+
+const fs = require('fs');
+
+const json1 = fs.readFileSync('data.json', 'utf8');
+
+const object = JSON.parse(json1);
+object.key2 = 'value2';
+
+const json2 = JSON.stringify(object);
+fs.writeFileSync('data.json', json2);
+ 
 let tg = window.Telegram.WebApp;
 
 const elements = document.getElementsByClassName("scroller_text");
