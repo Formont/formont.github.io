@@ -1,5 +1,3 @@
-import { readFileSync, writeFileSync } from 'fs';
-
 const fs = require('fs');
 
 const json1 = fs.readFileSync('data.json', 'utf8');
