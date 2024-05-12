@@ -1,4 +1,4 @@
-const fs = require('fs');
+import { readFileSync, writeFileSync } from 'fs';
 
 const json1 = fs.readFileSync('data.json', 'utf8');
 
