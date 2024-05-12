@@ -3,7 +3,7 @@ const fs = require('fs');
 const json1 = fs.readFileSync('data.json', 'utf8');
 
 const object = JSON.parse(json1);
-object.key2 = 'value2';
+object.views += 1;
 
 const json2 = JSON.stringify(object);
 fs.writeFileSync('data.json', json2);
