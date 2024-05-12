@@ -15,7 +15,7 @@ text-align: center;
 }
 
 .scroll {
-margin: 5px 0;
+margin: 1px 0;
 overflow-x: scroll;
 display: flex;
 height: 156px;
@@ -109,10 +109,10 @@ border-radius: 17px;
 border-width: 6px;
 }
 
-#mainbanner{
-  margin: 1%;
+.banner{
+  margin: 1% 1%;
 }
-#mainbanner img{
+.banner img{
 width: 100%;
 height: 100%;
 margin-bottom: -13px;
@@ -120,13 +120,13 @@ border-radius: 17px;
 }
 
 @media (hover:hover){
-#mainbanner:hover{
+.banner:hover{
   transform: scale(0.95);
 }
 }
 
 @media (hover: none){
-#mainbanner:active{
+.banner:active{
   transform: scale(0.95);
 }
 }
@@ -135,7 +135,6 @@ border-radius: 17px;
 width: 100%;
 height: 33%;
 position: relative;
-top: 22px;
 flex-flow: column;
 display: flex;
 flex-wrap: wrap;
@@ -170,7 +169,7 @@ height: 100%;
 
 #secondbanner{
 position: relative;
-width: 64%;
+width: 63%;
 height: 100%;
 }
 
@@ -193,61 +192,3 @@ height: 100%;
 }
 
 
-.menutext{
-padding: 3px;
-margin: 5px;
-font-size: 15px;  
-float: right;
-}
-
-
-#header_container{
-position: relative;
-top: 12px;
-text-align: left;
-font-size: 24px;
-clear: both;
-display: block;
-font-family: sans-serif;
-}
-
-#shops{
-width: 100%;
-display: grid;
-grid-template-columns: repeat(2, 50%);
-grid-auto-rows: 101px;
-top: 6px;
-position:  relative;
-justify-items: center;
-}
-
-.shop_text{
-position: relative;
-color: white;
-font-size: 150%;
-margin: auto;
-}
-
-.button_shop{
-height: 85px;
-width: 75%;
-border-radius: 17px;
-background-color: rgb(124, 42, 214);
-text-decoration: none;
-font-family: Arial, sans-serif;
-text-align: center;
-display: flex;
-justify-content: center;
-}
-
-@media (hover: hover){
-  .button_shop:hover{
-    transform: scale(0.95);
-    }
-}
-
-@media (hover: none){
-  .button_shop:active{
-    transform: scale(0.95);
-    }
-}
