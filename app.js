@@ -1,17 +1,12 @@
-// Получить файл JSON из веб-хранилища
-const jsonStr = localStorage.getItem('data.json');
-
-// Преобразовать строку JSON в объект JavaScript
-const data = JSON.parse(jsonStr);
-
-// Отредактировать объект JavaScript
-data.views += 1;
-
-// Преобразовать отредактированный объект обратно в строку JSON
-const newJsonStr = JSON.stringify(data);
-
-// Сохранить отредактированный файл JSON в веб-хранилище
-localStorage.setItem('myData', newJsonStr);
+fetch('data.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Ой, ошибка в fetch: ' + response.statusText);
+    }
+    return response.json();
+  })
+  .then(jsonData => console.log(jsonData))
+  .catch(error => console.error('Ошибка при исполнении запроса: ', error));
  
 let tg = window.Telegram.WebApp;
 
