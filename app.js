@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync } from './fs';
 
 const json1 = readFileSync('data.json', 'utf8');
 
