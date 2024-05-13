@@ -1,5 +1,5 @@
 // Получить файл JSON из веб-хранилища
-const jsonStr = localStorage.getItem('data');
+const jsonStr = localStorage.getItem('data.json');
 
 // Преобразовать строку JSON в объект JavaScript
 const data = JSON.parse(jsonStr);
