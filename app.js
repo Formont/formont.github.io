@@ -1,12 +1,17 @@
-import { readFileSync, writeFileSync } from './fs';
+// Получить файл JSON из веб-хранилища
+const jsonStr = localStorage.getItem('data');
 
-const json1 = readFileSync('data.json', 'utf8');
+// Преобразовать строку JSON в объект JavaScript
+const data = JSON.parse(jsonStr);
 
-const object = JSON.parse(json1);
-object.views += 1;
+// Отредактировать объект JavaScript
+data.views += 1;
 
-const json2 = JSON.stringify(object);
-writeFileSync('data.json', json2);
+// Преобразовать отредактированный объект обратно в строку JSON
+const newJsonStr = JSON.stringify(data);
+
+// Сохранить отредактированный файл JSON в веб-хранилище
+localStorage.setItem('myData', newJsonStr);
  
 let tg = window.Telegram.WebApp;
 
