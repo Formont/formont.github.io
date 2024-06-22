@@ -97,7 +97,10 @@ border-color: #82002D;
 #scroller_bureau{
   border-color: #DB00E7;
 }
-    
+
+#firstbanner{
+  margin: 2% 1%;
+}
 .button img {
 position: relative;
 width: 85px;
